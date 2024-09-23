@@ -1,0 +1,39 @@
+body {
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333; /* Dark background color */
+}
+
+.centered-div {
+  background-color: #fff; /* Light background color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto; /* To handle overflow content */
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  padding-top:30%;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.Loader {
+  margin:20px;
+  display: flex;
+  justify-content: center;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
